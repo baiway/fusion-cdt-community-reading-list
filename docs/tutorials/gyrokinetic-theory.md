@@ -1,5 +1,5 @@
 # Gyrokinetic theory
-Start with [Howe et al. (2006)](../literature/howes2006astro-gyrokinetics.md). Appendix A is particularly useful. You may wish to read this in conjuction with [Abel et al. (2013)](../literature/abel2013multiscale-gyrokinetics.md).
+Start with [Howe et al. (2006)](../literature/plasma/MCF/gyrokinetics/howes2006astro-gyrokinetics.md). Appendix A is particularly useful. You may wish to read this in conjuction with [Abel et al. (2013)](../literature/plasma/MCF/gyrokinetics/abel2013multiscale-gyrokinetics.md).
 
 You may find in your reading that authors use the fields $\delta A_\parallel$ and $\delta B_\parallel$ for the magnetic field, this is because...
 
