@@ -58,6 +58,7 @@ Copyright &copy; 2026 The authors
 # Read more: https://zensical.org/docs/customization/#additional-css
 #
 #extra_css = ["stylesheets/extra.css"]
+extra_css = ["stylesheets/reference.css"]
 
 # With the `extra_javascript` option you can add your own JavaScript to your
 # project to customize the behavior according to your needs.
@@ -76,6 +77,8 @@ extra_javascript = [
 # Enable tags. See: https://zensical.org/docs/setup/tags/?h=tag
 [project.extra.tags]
 gyrokinetics = "gyrokinetics"
+
+[project.markdown_extensions.bibtex_reference]
 
 [project.markdown_extensions.pymdownx.arithmatex]
 generic = true

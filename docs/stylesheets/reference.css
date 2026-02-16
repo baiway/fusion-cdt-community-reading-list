@@ -1,0 +1,25 @@
+/* Reference page header styles */
+
+.ref-authors {
+  font-size: 0.95rem;
+  color: var(--md-default-fg-color--light);
+  line-height: 1.6;
+}
+
+.ref-journal {
+  font-size: 0.9rem;
+  color: var(--md-default-fg-color--light);
+}
+
+.ref-doi {
+  font-size: 0.9rem;
+}
+
+.ref-doi a {
+  color: var(--md-accent-fg-color);
+  text-decoration: none;
+}
+
+.ref-doi a:hover {
+  text-decoration: underline;
+}
