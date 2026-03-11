@@ -29,6 +29,10 @@ site_author = "<your name here>"
 # Read more: https://zensical.org/docs/setup/basics/#site_url
 site_url = "https://fusion-cdt.github.io/fusion-cdt-community-reading-list/"
 
+# The repo_url enables the edit button and repository link in the header.
+repo_url = "https://github.com/Fusion-CDT/fusion-cdt-community-reading-list"
+edit_uri = "edit/main/docs"
+
 # The copyright notice appears in the page footer and can contain an HTML
 # fragment.
 #
@@ -148,7 +152,7 @@ features = [
     # will generate an edit button for the page. This works for common
     # repository hosting services.
     # https://zensical.org/docs/setup/repository/#content-actions
-    #"content.action.edit",
+    "content.action.edit",
 
     # If you have a repository configured and turn on this feature, Zensical
     # will generate a button that allows the user to view the Markdown
