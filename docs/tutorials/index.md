@@ -1,5 +1,6 @@
 ---
 icon: lucide/book-text
+comments: true
 ---
 
 # Tutorials

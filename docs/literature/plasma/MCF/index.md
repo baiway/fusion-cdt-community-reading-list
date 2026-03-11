@@ -1,5 +1,6 @@
 ---
 icon: lucide/torus
+comments: true
 ---
 
 # Magnetic confinement fusion

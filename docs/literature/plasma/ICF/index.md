@@ -1,5 +1,6 @@
 ---
 icon: lucide/sun
+comments: true
 ---
 
 # Inertial confinement fusion

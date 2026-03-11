@@ -1,5 +1,6 @@
 ---
 icon: lucide/anvil
+comments: true
 ---
 
 # Materials

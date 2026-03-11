@@ -1,0 +1,45 @@
+{% if page.meta.comments %}
+<h2 id="__comments">{{ lang.t("meta.comments") }}</h2>
+
+<script src="https://giscus.app/client.js"
+        data-repo="Fusion-CDT/community-reading-list"
+        data-repo-id="R_kgDORRv1kw"
+        data-category="General"
+        data-category-id="DIC_kwDORRv1k84C4Kap"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="light"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>
+
+<script>
+  var palette = __md_get("__palette")
+  if (palette && typeof palette.color === "object") {
+    var theme = palette.color.scheme === "slate" ? "transparent_dark" : "light"
+    var script = document.querySelector("#__comments ~ script")
+    script.setAttribute("data-theme", theme)
+  }
+
+  document.addEventListener("DOMContentLoaded", function() {
+    var ref = document.querySelector("[data-md-component=palette]")
+    if (!ref) return
+    ref.addEventListener("change", function() {
+      var palette = __md_get("__palette")
+      if (palette && typeof palette.color === "object") {
+        var theme = palette.color.scheme === "slate" ? "transparent_dark" : "light"
+        var frame = document.querySelector(".giscus-frame")
+        if (!frame) return
+        frame.contentWindow.postMessage(
+          { giscus: { setConfig: { theme: theme } } },
+          "https://giscus.app"
+        )
+      }
+    })
+  })
+</script>
+{% endif %}

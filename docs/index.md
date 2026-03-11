@@ -1,5 +1,6 @@
 ---
 icon: lucide/home
+comments: false
 ---
 
 # Get started

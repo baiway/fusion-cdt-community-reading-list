@@ -1,5 +1,6 @@
 ---
 icon: lucide/sparkles
+comments: true
 ---
 
 # Low temperature plasmas
